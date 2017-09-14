@@ -1,0 +1,7 @@
+<div>
+  <ul>
+    <li *ngFor="let competition of competitionList" (click)="goToStandings(competition.id)">
+      {{competition.caption}}
+    </li>
+  </ul>
+</div>
